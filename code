@@ -5,4 +5,4 @@ if check == "fah":
 elif check == "cel":
     print(f" {degree} degrees celsius is {degree * 9 / 5 + 32} degrees fahrenheit.")
 else:
-    break
+    print("Error")
