@@ -4,3 +4,5 @@ if check == "fah":
     print(f" {degree} degrees fahrenheit is {(degree - 32) * 5 / 9} degrees celsius.")
 elif check == "cel":
     print(f" {degree} degrees celsius is {degree * 9 / 5 + 32} degrees fahrenheit.")
+else:
+    break
